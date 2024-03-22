@@ -1,17 +1,15 @@
-import Image from "next/image";
-import cityBowlBG from "@/public/bgImages/cityBowlLookOut_Bg.webp";
+import BackgroundImage from "@/app/ui/overview/backgroundImage";
+import Services from "@/app/ui/services";
+import Partners from "@/app/ui/partners";
 
 export default function Page() {
     return (
-        <main>
-            <div className='flex'>
-            <Image
-                src={cityBowlBG}
-                alt="African UAV Technologies"
-                objectFit="contain"
-                />
-             <h1>African UAV Technologies is currently under maintenance</h1>   
-            </div>
+        <>
+        <main className='h-screen'> 
+            <BackgroundImage />  
+            <Services />
+            <Partners />
         </main>
+        </>
     );
 }
