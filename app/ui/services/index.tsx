@@ -1,9 +1,9 @@
-export default function services() {
+export const Services = () => {
     return (
-        <div className="flex h-full">
-            <div className="flex w-full bg-orange-700 ">
-                <h1 className="flex">Services</h1>
-            </div>
+        <div>
+            <h1 className="text-black">Services</h1>
         </div>
     );
 }
+
+export default Services;

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import cityBowlBG from '@/public/bgImages/cityBowlLookOut_Bg.webp'
 
-export default function BackgroundImage() {
+export default function OverviewBg() {
     return (
             <Image
                 src={cityBowlBG}

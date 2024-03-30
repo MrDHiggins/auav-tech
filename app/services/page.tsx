@@ -1,7 +1,9 @@
+import Services from "@/app/ui/services";
+
 export default function Page() {
     return (
-        <div className="flex flex-row">
-            <h1>Services Page</h1>
-        </div>
+            <div className="flex">
+                <Services />
+            </div>
     );
 }
