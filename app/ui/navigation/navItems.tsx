@@ -12,12 +12,12 @@ import {
 } from '@heroicons/react/24/solid';
 
 const itemLinks = [
-    {name: 'Overview', href: '/auavTechHome', icon: HomeIcon},
-    {name: 'Services', href: '/auavTechHome/services', icon: InboxIcon},//Must be
-    {name: 'Operations', href: '/auavTechHome/operations', icon: InboxIcon},
-    {name: 'Company', href: '/auavTechHome/company', icon: BuildingStorefrontIcon},
-    {name: 'Blog', href: '/auavTechHome/blog', icon: BookmarkIcon},
-    {name: 'Contact', href: '/auavTechHome/contact', icon: InboxIcon},
+    {name: 'Overview', href: '/', icon: HomeIcon},
+    {name: 'Services', href: '/services', icon: InboxIcon},//Must be
+    {name: 'Operations', href: '/operations', icon: InboxIcon},
+    {name: 'Company', href: '/company', icon: BuildingStorefrontIcon},
+    {name: 'Blog', href: '/blog', icon: BookmarkIcon},
+    {name: 'Contact', href: '/contact', icon: InboxIcon},
 ];
 
 

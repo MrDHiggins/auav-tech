@@ -1,7 +1,15 @@
+import BackgroundImage from "@/app/ui/overview/backgroundImage";
+import Services from "@/app/ui/services";
+import Partners from "@/app/ui/partners";
+
 export default function Page() {
-  return (
-    <div>
-      <h1>African UAV Technologies is currently under maintenance</h1>
-    </div>
-  )
+    return (
+        <>
+        <main className='h-screen'> 
+            <BackgroundImage />  
+            <Services />
+            <Partners />
+        </main>
+        </>
+    );
 }

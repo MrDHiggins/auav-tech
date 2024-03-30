@@ -1,6 +1,7 @@
 import '@/app/ui/globals.css';
 import type { Metadata } from "next";
 import { inter } from '@/app/ui/fonts';
+import TopNav from '@/app/ui/navigation/topNav';
 
 export const metadata: Metadata = {
   title: "African UAV Tech",
@@ -17,7 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased`}>
+        <TopNav/>
+        {children}
+        </body>
     </html>
   );
 }
