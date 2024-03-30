@@ -2,6 +2,7 @@ import '@/app/ui/globals.css';
 import type { Metadata } from "next";
 import { inter } from '@/app/ui/fonts';
 import TopNav from '@/app/ui/navigation/topNav';
+import { Footer } from '@/app/ui/footer/Footer';
 
 export const metadata: Metadata = {
   title: "African UAV Tech",
@@ -17,11 +18,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html>
       <body className={`${inter.className} antialiased`}>
         <TopNav/>
         {children}
         </body>
+        <Footer 
+            showCopyRight={true}
+            socialLinks={{
+                twitter: 'https://twitter.com/yourcompany'
+            }} 
+        />
+
     </html>
   );
 }
