@@ -13,7 +13,7 @@ import {
 
 const itemLinks = [
     {name: 'Overview', href: '/', icon: HomeIcon},
-    {name: 'Services', href: '/services', icon: InboxIcon},//Must be
+    {name: 'Services', href: '/services', icon: InboxIcon},
     {name: 'Operations', href: '/operations', icon: InboxIcon},
     {name: 'Company', href: '/company', icon: BuildingStorefrontIcon},
     {name: 'Blog', href: '/blog', icon: BookmarkIcon},
@@ -40,7 +40,7 @@ export default function NavItems() {
               className={clsx(
                 'flex h-[40px] w-30 m-1 items-center justify-center shrink gap-2  text-sm font-medium hover:underline text md:flex-row md:justify-center md:p-2 md:px-3',
                 { 
-                  'text-black': pathName === link.href
+                  'underline text-green-500:': pathName === link.href
                 }
               )}
             >
