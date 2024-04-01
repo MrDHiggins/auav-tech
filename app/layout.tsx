@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "African UAV Tech",
   description: "African UAV Technologies empowers organizations across Africa to safely, legally,and ethically integrate Unmanned Aerial Systems (UAS) technology into their operations.",
   icons: {
-    icon: "../public/favicon.ico",
+    icon: "/",
   }
 };
 
@@ -22,14 +22,8 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <TopNav/>
         {children}
-        </body>
-        <Footer 
-            showCopyRight={true}
-            socialLinks={{
-                twitter: 'https://twitter.com/yourcompany'
-            }} 
-        />
-
+        <Footer /> 
+      </body>
     </html>
   );
 }
