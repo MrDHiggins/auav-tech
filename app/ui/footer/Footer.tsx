@@ -10,7 +10,7 @@ interface FooterProps {
 
 export const Footer = ({ showCopyRight = true, socialLinks }: FooterProps) => {
     return (
-        <footer className=" h-full w-full relative bg-gray-800 bottom-0 text-white block">
+        <footer className="flex flex-col h-full w-full relative bg-gray-800 bottom-0 text-white block">
             <div className="flex py-8">
                 <div className="flex justify-between">
                     <div>
