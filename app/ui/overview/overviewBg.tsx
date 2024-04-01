@@ -6,7 +6,7 @@ export default function OverviewBg() {
             <Image
                 src={cityBowlBG}
                 alt='City Bowl Look Out Background Image'
-                objectFit='contain'
+                priority={true}
                 className='flex w-full h-1/2'
             />
     );
