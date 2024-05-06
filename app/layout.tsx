@@ -1,7 +1,7 @@
 import '@/app/ui/globals.css';
 import type { Metadata } from "next";
 import { inter } from '@/app/ui/fonts';
-import TopNav from '@/app/ui/navigation/topNav';
+import {TopNav} from '@/app/ui/navigation/topNav';
 import { Footer } from '@/app/ui/footer/Footer';
 
 export const metadata: Metadata = {

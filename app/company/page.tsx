@@ -1,4 +1,3 @@
-import TopNav from '@/app/ui/navigation/topNav';
 
 const companyPage = () => {
   return (

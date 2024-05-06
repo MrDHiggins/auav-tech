@@ -6,9 +6,9 @@ export default function Page() {
     return (
         <>
         <main className='100vh'> 
-            <OverviewBg />  
-            <ServicesOverview />
-            <PartnerOverview />
+            {/* <OverviewBg />   */}
+            {/* <ServicesOverview /> */}
+            {/* <PartnerOverview /> */}
         </main>
         </>
     );

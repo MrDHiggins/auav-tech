@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import {clsx} from 'clsx';
+import Image from 'next/image';
+import auavtechlogo  from "@/public/auavtech-logo.png"
 
 import {
     HomeIcon,
@@ -27,7 +29,7 @@ export default function NavItems() {
 <>
   <div className="flex items-center justify-between w-full"> 
     <div>
-      <h1 className="ml-2">AUAVTech</h1>
+     <Image src={auavtechlogo} alt='Company Logo' width={60} height={60} />
     </div>
 
     <div className="flex justify-end">
@@ -55,3 +57,4 @@ export default function NavItems() {
 </>
 );
 }
+
